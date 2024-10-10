@@ -1,13 +1,15 @@
 const filme = {
-    nome: "O Iluminado", 
+    nome: "O Iluminado",
+    diretor: "Stanley Kubrick",
     anoLançamento: 1980,
     elenco: ["Jack Nicholson" , "Shelley Duvall" , "Danny Lloyd "],
-    viuNaoViu: "true",
+    JaViu: true
 }
 
 console.log (filme.nome)
+console.log (filme.diretor)
 console.log (filme.anoLançamento)
-console.log ([filme.elenco])
-console.log ([filme.viuNaoViu])
+console.log (filme["elenco"])
+console.log (filme["JaViu"])
 
   
